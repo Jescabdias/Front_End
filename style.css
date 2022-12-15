@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.cabecalho{
+    padding: 0px 10px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+.bandeira{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.brasao{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.lista_de_navegacao{
+    display: flex;
+    list-style: none;
+    font-size: 40px;
+    font-weight: 300;
+    justify-content: space-between;
+    margin: 65px 40px;
+    box-sizing: border-box;  
+        
+}
+
+.lista_de_navegacao li{
+    padding: 20px;
+   
+}
+
+.lista_de_navegacao li a {
+    text-decoration: none;
+}
+
+.imgbanner{
+    height: 600px;
+    width: 100%;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.banner_txt{
+    
+    font-weight: 70;
+    font-size: 50px;
+    word-wrap: break-word;
+    color:black;
+    z-index: 2;
+
+}
+
+.banner_txt h1{
+    padding-top: 50px;
+    padding-left: 20px;
+    font-weight: 450;
+}
+
+.banner_txt p{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: 400;
+}
+
+
+.titulo_curiosidade{
+    margin-top: 250px;
+    display: flex;
+    font-size: 60px;
+    text-align: center;   
+    justify-content: center;
+    justify-items: center;  
+}
+
+.cards{
+    
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+   }
+
+.image_card{
+    
+    padding: 13px 10px;
+    width: 100%;
+    height:50%;
+    object-fit: cover;
+}
+
+
+.text_card1{
+    margin: 70px;
+    position: relative;
+    display: block;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 40px 60px -6px rgb(150, 148, 148);
+    border-radius: 70px;
+
+    
+  }
+
+.text_card_2{
+    margin: 70px;
+    position: relative;
+    display: block;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 40px 60px -6px rgb(150, 148, 148);
+    border-radius: 70px;
+}
+
+.text_card_3{
+    margin: 70px;
+    position: relative;
+    display: block;
+    width: 500px;
+    height: 450px;
+    box-shadow: 0 40px 60px -6px rgb(150, 148, 148);
+    border-radius: 70px;
+
+}
+.subtitle{
+    text-align: center;
+    font-size: 60px;
+}
+
+.card-desc{
+    margin: top 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#video{
+    margin-top: 100px;
+    height: 60px;
+    text-align: center;
+}
+
+#video2 h3{
+    width: 100px;
+    margin-left: 20px;
+    line-height: 75px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.rodape{
+    position: relative;
+    height: 75px;
+    margin-top: 100px;
+    background-color: rgb(216, 216, 216);
+    margin: 700px 0 0;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.container_rodape{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color:rgb(203,218,213,0.2);
+      
+}
+
+    .cabecalho{
+        display: relative;
+        flex-wrap: wrap;
+        background-color:gray
+         }
+
+    .lista_de_navegacao{
+            flex-wrap: wrap;
+            list-style: none;
+            font-size: 35px;
+            font-weight: 400;
+            justify-content: center;
+            
+        }  
+
+    .imgbanner{display:none;}  
+        
+    .banner_txt h1{display:none; }
+
+    .banner_txt p{display:none}
+
+    nav{
+        background-color: gray
+    }
+
+    .titulo_curiosidades{
+        font-size:40px;
+        padding-top: 100px; ;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards p{
+        font-size: 28px;
+    }
+
+   
+
+ 
+    
+    
